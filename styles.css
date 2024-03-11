@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    background: goldenrod;
+    flex: 0.1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.book {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr auto auto;
+    background-color: dodgerblue;
+    color: aliceblue;
+}
+
+.book h3 {
+    grid-area: 1/1/1/1;
+    border-bottom: solid 1px black;
+}
+
+.book p {
+    grid-area: 2/1/3/1;
+}
+
+.book .bookButton {
+    grid-area: 1/2/3/4;
+    display: flex;
+}
+
+.bookButton button {
+    padding: 15px;
+    margin: 5px;
+}
+
+.addBook {
+    align-self: center;
+}
+
+.addBook button {
+    height: 45px;
+    width: 45px;
+    border-radius: 25px;
+}
