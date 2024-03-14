@@ -92,3 +92,53 @@
     color: #200e3a;
     font-size: 2rem;
 }
+
+
+dialog.dialog {
+    position: relative;
+    margin: 0;
+    top: calc(50vh - 110px);
+    left: calc(50vw - 170px);
+}
+
+form {
+    width: 340px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #52d3d8;
+    font-family: 'Gabriela';
+    font-size: 1.2rem;
+    color: #200e3a;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    margin-left: 5px;
+}
+
+input#author,
+input#title,
+input#pages {
+    width: 250px;
+    margin-right: 5px;
+}
+
+fieldset {
+    margin: 0 2.5px;
+    padding: 10px 0;
+}
+
+button#createBook {
+    margin: auto;
+    padding: 5px 7px;
+    background-color: #3887be;
+    color: #200e3a;
+    font-size: 1rem;
+    border-radius: 10px;
+}
