@@ -6,7 +6,7 @@
 .main-container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .header {
@@ -141,4 +141,11 @@ button#createBook {
     color: #200e3a;
     font-size: 1rem;
     border-radius: 10px;
+}
+
+
+@media screen and (max-width: 750px){
+    .main-container {
+        min-height: 100svh;
+    }
 }
